@@ -11,13 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="~/Content/assets/img/favicon.ico">
-    <title>@ViewBag.Title</title>
-    @*<link href="~/Content/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="~/Content/assets/css/animate.css" rel="stylesheet">
-    <link href="~/Content/assets/css/prettyPhoto.css" rel="stylesheet">
-    <link href="~/Content/assets/css/pe-icons.css" rel="stylesheet">
-    <link href="~/Content/assets/css/style.css" rel="stylesheet">
-    <link href="~/Content/assets/css/font-awesome.min.css" rel="stylesheet">*@
+    <title>@ViewBag.Title</title>    
     @Styles.Render("~/Content/assets/css")
     <link href='http://fonts.googleapis.com/css?family=Cabin:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
@@ -178,12 +172,8 @@
         <!-- END MAIN FOOTER -->
         <!-- Bootstrap core JavaScript
         ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="~/Content/assets/js/bootstrap.min.js"></script>
-        <script src="~/Content/assets/js/plugins.js"></script>
-        <script src="~/Content/assets/js/imagesloaded.js"></script>
-        <script src="~/Content/assets/js/prettyPhoto.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>
-        <script src="~/Content/assets/js/init.js"></script>
+        <!-- Placed at the end of the document so the pages load faster -->        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>        
+        @Scripts.Render("~/Content/assets/js")
 </body>
 </html>
