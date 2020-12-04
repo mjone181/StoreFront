@@ -53,7 +53,6 @@
     <Compile Include="Category.cs">
       <DependentUpon>StoreFrontDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Department.cs">
       <DependentUpon>StoreFrontDataModel.tt</DependentUpon>
     </Compile>
